@@ -1,0 +1,53 @@
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 35px;
+}
+.admintraction-h {
+    padding-top: 35px;
+}
+.navigation-buttons-h {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.navigation-buttons button {
+    border: 1px solid #D2B48C;
+    border: none; 
+    border-radius: 5px; 
+    padding: 20px   40px; 
+    cursor: pointer;
+    margin-top: 15px; 
+    transition: background-color 0.3s; 
+}
+
+.navigation-buttons button a {
+    color: black; 
+    text-decoration: none;
+}
+
+.navigation-buttons button:hover {
+    background-color: rgb(241, 151, 16);
+   
+}
+
+.navigation-buttons button a:hover{
+    color: white;
+}
+
+.admintraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f3f3;
+}

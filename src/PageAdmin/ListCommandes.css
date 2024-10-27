@@ -1,0 +1,40 @@
+/* ListCommandes.css */
+
+.container_ister {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container_ister h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.container_ister ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container_ister li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.container_ister li:hover {
+    transform: scale(1.02);
+}
+
+.commande-info {
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,65 @@
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.fromulaire-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100vh;
+    background-color: #f8f3f3;
+}
+.form-container {
+    width: 510px;
+    height: 490px;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+    padding: 24px 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size:17px;
+}
+
+.form-input:focus {
+    border-color: #000;
+    outline: none;
+}
+
+.primary {
+    width: 95%;
+    background-color:rgb(241, 151, 16);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    padding: 24px 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size:17px;
+}
+
+.primary:hover {
+    background-color:white;
+    color:black ;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

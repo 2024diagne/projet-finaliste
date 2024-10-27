@@ -1,0 +1,37 @@
+.resver-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding: 20px;
+    background-color: #f5f5f5; 
+}
+.resver-text {
+    text-align: center; 
+    margin: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.resver-text h1 {
+    color: rgb(241, 151, 16);
+}
+
+.resver-maintenant {
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 15px; 
+    padding: 20px;
+    text-align: center; 
+    width: 250px;
+}
+
+.resver-maintenant img {
+    max-width: 100%; 
+    border-radius: 5px; 
+}
+.resver-maintenant img:hover {
+    transform: translateY(-5px); 
+  
+}
